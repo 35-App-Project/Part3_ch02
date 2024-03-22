@@ -22,6 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.choi.part3_ch02.PinActivity" />
+        <activity android:name="com.choi.part3_ch02.IdentityInputActivity" />
     </application>
 
 </manifest>
