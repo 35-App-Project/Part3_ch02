@@ -1,7 +1,8 @@
 package com.choi.part3_ch02
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.choi.part3_ch02.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openShuffle() {
-
+        startActivity(Intent(this,PinActivity::class.java))
     }
 
     fun openVerifyOtp() {

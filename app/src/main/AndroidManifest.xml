@@ -21,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.choi.part3_ch02.PinActivity" />
     </application>
 
 </manifest>
